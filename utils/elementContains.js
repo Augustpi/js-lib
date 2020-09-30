@@ -8,7 +8,7 @@
 
 /**
  * 
- * @param {*} parent 
- * @param {*} child 
+ * @param {Element} parent
+ * @param {Element} child
  */
 export const elementContains = (parent, child) => parent !== child && parent.contains(child);
