@@ -12,4 +12,6 @@ var formatDate = function (timestamp) {
 };
 
 console.log(formatDate(1530680400000))
+// July 4, 2018
 console.log(formatDate('2018-07-04 05:00:00'))
+// July 4, 2018
