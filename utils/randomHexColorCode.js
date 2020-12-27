@@ -1,4 +1,3 @@
-
 // -----------------------------------------------------------------------------
 // Random Hexadecimal Color Code
 // This snippet can be used to generate a random hexadecimal color code.

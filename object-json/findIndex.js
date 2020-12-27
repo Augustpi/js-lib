@@ -1,4 +1,4 @@
-import find from './find';
+import find from '../arrayFns/find';
 
 /**
  * Return the index of the matching object
