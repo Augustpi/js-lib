@@ -1,7 +1,4 @@
-import isBrowser from './isBrowser';
-
-const isIE11 = isBrowser && !!(window.MSInputMethodContext && document.documentMode);
-const isIE10 = isBrowser && /MSIE 10/.test(navigator.userAgent);
+import { isIE10, isIE11 } from './isBrowser';
 
 /**
  * Determines if the browser is Internet Explorer
