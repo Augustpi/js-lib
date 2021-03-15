@@ -20,7 +20,7 @@ export const isIE10 = isBrowser && /MSIE 10/.test(navigator.userAgent);
 export const isIE11 = isBrowser && !!(window.MSInputMethodContext && document.documentMode);
 export const isEdge = UA && UA.indexOf('edge/') > 0;
 export const isAndroid = (UA && UA.indexOf('android') > 0) || (weexPlatform === 'android');
-export const isIOS = (UA && /iphone|ipad|ipod|ios/.test(UA)) || (weexPlatform === 'ios');
+export const isIOS = (UA && /iphone|ipad|ipod|kios/.test(UA)) || (weexPlatform === 'ios');
 export const isChrome = UA && /chrome\/\d+/.test(UA) && !isEdge;
 export const isPhantomJS = UA && /phantomjs/.test(UA);
-export const isFF = UA && UA.match(/firefox\/(\d+)/);
+export const isFF = UA && UA.match(/firefox\/(\d+)/); ü
