@@ -1,4 +1,3 @@
-
 /**
  * typeOf
  * ---------
@@ -19,6 +18,7 @@
  * var bool = typeOf(true)
  * var nl = typeOf(null)
  * var undef = typeOf()
+ * var sym = Symbol()
  * or nodelist etc.
  *
  * console.log(arr)   // 'array'
@@ -31,9 +31,10 @@
  * console.log(bool)  // 'boolean'
  * console.log(nl)    // 'null'
  * console.log(undef) // 'undefined'
+ * console.log(sym) // 'symbol'
  */
-var typeOf = function (obj) {
-    return Object.prototype.toString.call(obj).slice(8, -1).toLowerCase();
+export const typeOf = function (obj) {
+  return Object.prototype.toString.call(obj).slice(8, -1).toLowerCase();
 };
 
 // ['array', 'object', 'string', 'date', 'number', 'function', 'regexp', 'boolean', 'null', 'undefined']
